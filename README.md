@@ -4,25 +4,25 @@ Quiz App in Python with Tkinter
 
 This is a simple quiz application built in Python using Tkinter, a standard GUI library, and B612 Mono font for a clean and stylish look. The app reads questions, their correct answers, and alternative answers from a CSV file named questions.csv.
 
-How to Run the App
+##How to Run the App
 Make sure you have Python installed on your system.
 Clone this repository to your local machine or download the source code as a ZIP file and extract it.
 Install Tkinter (if not already installed):
 For Windows users, Tkinter is usually included with Python by default.
 For Linux users, you can install Tkinter using the package manager:
 
-sudo apt-get install python3-tk
+```sudo apt-get install python3-tk```
 
-Install required font (B612 Mono)
+###Install required font (B612 Mono)
 Download the B612 Mono font from the Google Fonts website.
 Install the font on your operating system by double-clicking the downloaded font file and clicking "Install."
 Place the questions.csv file in the project folder, following the format specified below.
-Navigate to the project folder where the quiz_app.py file is located using the command line or terminal.
+Navigate to the project folder where the quiz.py file is located using the command line or terminal.
 Run the app with the following command:
 
-python quiz.py
+```python quiz.py```
 
-questions.csv Format
+##questions.csv Format
 
 The questions.csv file contains the questions, correct answers, and alternative answers in the following format:
 
@@ -38,7 +38,7 @@ The first column represents the question.
 The second column represents the correct answer.
 The third column represents the alternative answers, separated by commas and enclosed in double quotes.
 
-Features
+##Features
 
 The app reads questions and answers from the questions.csv file, making it easy to modify and update quiz content.
 Randomizes the order of options in each question to keep the quiz dynamic and engaging.

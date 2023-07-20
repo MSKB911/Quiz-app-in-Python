@@ -25,7 +25,7 @@ Run the app with the following command:
 ## questions.csv Format
 
 The questions.csv file contains the questions, correct answers, and alternative answers in the following format:
-
+```
 question,correct_answer,alternatives
 Which one of the following is not a greenhouse gas?,N2,"CO2, N2O, CH4"
 What is the largest source of marine pollution?,Plastic waste,"Oil spills, Chemical runoff, Sewage discharge"
@@ -33,6 +33,7 @@ Which renewable energy source harnesses the power of tides?,Tidal power,"Solar p
 What is the primary cause of soil erosion?,Water and wind,"Deforestation, Agricultural practices, Urbanization"
 Which gas is responsible for the depletion of the ozone layer?,Chlorofluorocarbons (CFCs),"Carbon dioxide (CO2), Methane (CH4), Nitrous oxide (N2O)"
 What is the process of converting sunlight into electricity called?,Photovoltaics,"Thermal power, Geothermal power, Hydropower"
+```
 Each question is represented as a row in the CSV file.
 The first column represents the question.
 The second column represents the correct answer.

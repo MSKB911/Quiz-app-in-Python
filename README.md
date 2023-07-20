@@ -39,9 +39,11 @@ The second column represents the correct answer.
 The third column represents the alternative answers, separated by commas and enclosed in double quotes.
 
 Features
+
 The app reads questions and answers from the questions.csv file, making it easy to modify and update quiz content.
 Randomizes the order of options in each question to keep the quiz dynamic and engaging.
 Displays the final score at the end of the quiz.
 
 Contribution
+
 If you find any issues or have suggestions for improvement, feel free to open an issue or submit a pull request.

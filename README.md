@@ -13,7 +13,7 @@ For Linux users, you can install Tkinter using the package manager:
 
 sudo apt-get install python3-tk
 
-Install required font (B612 Mono):
+Install required font (B612 Mono)
 Download the B612 Mono font from the Google Fonts website.
 Install the font on your operating system by double-clicking the downloaded font file and clicking "Install."
 Place the questions.csv file in the project folder, following the format specified below.
@@ -22,7 +22,7 @@ Run the app with the following command:
 
 python quiz.py
 
-questions.csv Format:
+questions.csv Format
 
 The questions.csv file contains the questions, correct answers, and alternative answers in the following format:
 
@@ -37,6 +37,7 @@ Each question is represented as a row in the CSV file.
 The first column represents the question.
 The second column represents the correct answer.
 The third column represents the alternative answers, separated by commas and enclosed in double quotes.
+
 Features
 The app reads questions and answers from the questions.csv file, making it easy to modify and update quiz content.
 Randomizes the order of options in each question to keep the quiz dynamic and engaging.
